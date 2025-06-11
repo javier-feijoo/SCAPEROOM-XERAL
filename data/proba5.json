@@ -1,0 +1,164 @@
+[
+  {
+    "pregunta": "Ordea cronoloxicamente as etapas da historia segundo a súa aparición.",
+    "feitos": [
+      "Idade Moderna",
+      "Prehistoria",
+      "Idade Media",
+      "Idade Antiga",
+      "Idade Contemporánea"
+    ],
+    "ordeCorrecta": [
+      "Prehistoria",
+      "Idade Antiga",
+      "Idade Media",
+      "Idade Moderna",
+      "Idade Contemporánea"
+    ],
+    "letraCodificada": "QQ=="
+  },
+  {
+    "pregunta": "Ordea estes escritores galegos segundo a súa época.",
+    "feitos": [
+      "Manuel Rivas",
+      "Rosalía de Castro",
+      "Curros Enríquez",
+      "Xela Arias",
+      "Alfonso X o Sabio"
+    ],
+    "ordeCorrecta": [
+      "Alfonso X o Sabio",
+      "Rosalía de Castro",
+      "Curros Enríquez",
+      "Xela Arias",
+      "Manuel Rivas"
+    ],
+    "letraCodificada": "TA=="
+  },
+  {
+    "pregunta": "Ordea estes elementos químicos segundo o seu número atómico.",
+    "feitos": [
+      "Oxíxeno",
+      "Carbono",
+      "Hidróxeno",
+      "Nitróxeno",
+      "Helio"
+    ],
+    "ordeCorrecta": [
+      "Hidróxeno",
+      "Helio",
+      "Carbono",
+      "Nitróxeno",
+      "Oxíxeno"
+    ],
+    "letraCodificada": "Rw=="
+  },
+  {
+    "pregunta": "Ordea estes inventos segundo a súa data de aparición.",
+    "feitos": [
+      "Teléfono",
+      "Internet",
+      "Imprenta",
+      "Computador persoal",
+      "Telescopio"
+    ],
+    "ordeCorrecta": [
+      "Imprenta",
+      "Telescopio",
+      "Teléfono",
+      "Computador persoal",
+      "Internet"
+    ],
+    "letraCodificada": "Tw=="
+  },
+  {
+    "pregunta": "Ordea estes feitos históricos da historia de Galicia.",
+    "feitos": [
+      "Batalla de Rande",
+      "Irmandades da Fala",
+      "Xeración Nós",
+      "Estatuto de Autonomía de 1981",
+      "Revoltas Irmandiñas"
+    ],
+    "ordeCorrecta": [
+      "Revoltas Irmandiñas",
+      "Batalla de Rande",
+      "Irmandades da Fala",
+      "Xeración Nós",
+      "Estatuto de Autonomía de 1981"
+    ],
+    "letraCodificada": "Ug=="
+  },
+  {
+    "pregunta": "Ordea estas teorías científicas segundo a súa formulación.",
+    "feitos": [
+      "Teoría da evolución",
+      "Teoría heliocéntrica",
+      "Relatividade xeral",
+      "Teoría celular",
+      "Big Bang"
+    ],
+    "ordeCorrecta": [
+      "Teoría heliocéntrica",
+      "Teoría celular",
+      "Teoría da evolución",
+      "Relatividade xeral",
+      "Big Bang"
+    ],
+    "letraCodificada": "SQ=="
+  },
+  {
+    "pregunta": "Ordea estes sistemas operativos segundo a súa aparición.",
+    "feitos": [
+      "Windows XP",
+      "MS-DOS",
+      "Windows 10",
+      "Windows 95",
+      "Windows 7"
+    ],
+    "ordeCorrecta": [
+      "MS-DOS",
+      "Windows 95",
+      "Windows XP",
+      "Windows 7",
+      "Windows 10"
+    ],
+    "letraCodificada": "VA=="
+  },
+  {
+    "pregunta": "Ordea estes movementos artísticos segundo a súa época.",
+    "feitos": [
+      "Impresionismo",
+      "Barroco",
+      "Renacemento",
+      "Cubismo",
+      "Romanticismo"
+    ],
+    "ordeCorrecta": [
+      "Renacemento",
+      "Barroco",
+      "Romanticismo",
+      "Impresionismo",
+      "Cubismo"
+    ],
+    "letraCodificada": "TQ=="
+  },
+  {
+    "pregunta": "Ordea estas redes sociais segundo a súa aparición.",
+    "feitos": [
+      "TikTok",
+      "Facebook",
+      "Twitter",
+      "Instagram",
+      "MySpace"
+    ],
+    "ordeCorrecta": [
+      "MySpace",
+      "Facebook",
+      "Twitter",
+      "Instagram",
+      "TikTok"
+    ],
+    "letraCodificada": "Tw=="
+  }
+]

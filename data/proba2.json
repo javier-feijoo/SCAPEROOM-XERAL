@@ -1,0 +1,123 @@
+[
+  {
+    "pregunta": "Quen inventou o primeiro rato de ordenador en 1964?",
+    "opciones": [
+      "Douglas Engelbart",
+      "Xerox PARC",
+      "Apple",
+      "Microsoft"
+    ],
+    "correcta": 0,
+    "letraCodificada": "SQ=="
+  },
+  {
+    "pregunta": "Cal foi o primeiro videoxogo da historia, creado en 1958?",
+    "opciones": [
+      "Pong",
+      "Spacewar!",
+      "Tennis for Two",
+      "Tetris"
+    ],
+    "correcta": 2,
+    "letraCodificada": "Uw=="
+  },
+  {
+    "pregunta": "Que obxecto cotián ten máis potencia de cálculo que o ordenador que levou o Apollo 11 á Lúa?",
+    "opciones": [
+      "Unha calculadora científica",
+      "Unha cafeteira intelixente",
+      "Un móbil actual",
+      "Un reloxo intelixente"
+    ],
+    "correcta": 2,
+    "letraCodificada": "QQ=="
+  },
+  {
+    "pregunta": "Que científico aparece representado no primeiro logotipo de Apple?",
+    "opciones": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Alan Turing",
+      "Stephen Hawking"
+    ],
+    "correcta": 1,
+    "letraCodificada": "QQ=="
+  },
+  {
+    "pregunta": "Cal destes dispositivos almacenaba datos usando ondas de son nos anos 40?",
+    "opciones": [
+      "Disquete",
+      "Cinta magnética",
+      "Tubo de mercurio",
+      "Tarxeta perforada"
+    ],
+    "correcta": 2,
+    "letraCodificada": "Qw=="
+  },
+  {
+    "pregunta": "Que inventora galega é considerada pioneira da informática en España?",
+    "opciones": [
+      "María Montessori",
+      "Ángela Ruiz Robles",
+      "Isabel Ayuso",
+      "Aurora López"
+    ],
+    "correcta": 1,
+    "letraCodificada": "QQ=="
+  },
+  {
+    "pregunta": "Que tecnoloxía usaban os primeiros 'GPS' militares nos anos 60?",
+    "opciones": [
+      "Satélites",
+      "Balizas de radio",
+      "Estrelas (sextantes electrónicos)",
+      "Faros costeiros"
+    ],
+    "correcta": 0,
+    "letraCodificada": "Uw=="
+  },
+  {
+    "pregunta": "Como se chamaba o primeiro virus informático que se espallou por Internet en 1988?",
+    "opciones": [
+      "ILOVEYOU",
+      "Morris Worm",
+      "Stuxnet",
+      "Melissa"
+    ],
+    "correcta": 1,
+    "letraCodificada": "SQ=="
+  },
+  {
+    "pregunta": "Que famosa película de 1968 predixo tablets e videollamadas?",
+    "opciones": [
+      "Blade Runner",
+      "2001: Unha odisea no espazo",
+      "Star Trek",
+      "Matrix"
+    ],
+    "correcta": 1,
+    "letraCodificada": "TQ=="
+  },
+  {
+    "pregunta": "Que animal inspirou o deseño do algoritmo de enrutamento de Internet?",
+    "opciones": [
+      "Formiga",
+      "Abea",
+      "Toupeira",
+      "Peixe"
+    ],
+    "correcta": 0,
+    "letraCodificada": "Tw=="
+  },
+  {
+    "pregunta": "Que científico ficción escribiu as 'Tres Leis da Robótica'?",
+    "opciones": [
+      "Arthur C. Clarke",
+      "Philip K. Dick",
+      "Isaac Asimov",
+      "Ray Bradbury"
+    ],
+    "correcta": 2,
+    "letraCodificada": "Vg=="
+  }
+]

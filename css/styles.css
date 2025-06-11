@@ -1,0 +1,215 @@
+/* RESET e base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: white;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* BANNER superior */
+.banner {
+  background-color: #5e9cf7;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 10px;
+  z-index: 10;
+}
+
+.banner-text {
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  width: 30%;
+  text-align: center;
+}
+
+.logo-centro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  z-index: 20;
+}
+
+.logo-centro img {
+  height: 125px;
+  width: auto;
+}
+
+/* CONTIDO PRINCIPAL */
+main {
+  padding: 50px 15px 120px 15px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* PÉ DE PÁXINA */
+footer {
+  height: 100px;
+  background: #5e9cf7;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+/* PORTADA e PROBAS */
+.intro, .proba {
+  text-align: center;
+}
+
+.intro img, .banner-portada {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px 0;
+  border-radius: 12px;
+}
+
+/* BOTÓNS */
+button {
+  background-color: #347dff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1c5fe0;
+}
+
+/* CÓDIGO SECRETO */
+.codigo-secreto {
+  margin-top: 2rem;
+}
+
+.codigo-secreto h4 {
+  margin-bottom: 0.5rem;
+}
+
+#secreta, .palabra-secreta {
+  letter-spacing: 0.1rem;
+  color: #004d40;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+/* FEEDBACK */
+.feedback {
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 500px) {
+  .banner-text {
+    font-size: 0.7rem;
+    width: 35%;
+  }
+
+  .logo-centro img {
+    height: 60px;
+  }
+
+  footer {
+    font-size: 0.75rem;
+    height: 80px;
+  }
+
+  main {
+    padding-top: 75px;
+    padding-bottom: 100px;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
+
+  .palabra-secreta {
+    font-size: 1.5rem;
+  }
+} 
+
+
+.portada-principal {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.portada-principal h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #0d47a1;
+}
+
+.portada-principal p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.listado-probas {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.tarxeta-proba {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarxeta-proba img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tarxeta-proba h3 {
+  margin: 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background: #e3f2fd;
+}
+
+.tarxeta-proba:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Escritorio: 3 columnas */
+@media (min-width: 768px) {
+  .listado-probas {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,33 @@
+<section class="proba detectar-cambios">
+    <h2>Detecta as Diferenzas</h2>
+  
+    <div id="pantalla-xogo" class="xogo-cambios">
+      <!-- Fase de observación -->
+      <div id="faseObservacion" class="fase-observacion">
+        <div class="contador">
+          <p>Observa atentamente</p>
+          <p id="contadorTempo">7</p>
+        </div>
+        <img id="imaxeObservacion" src="assets/proba6/imagen_original.png" alt="Imaxe inicial">
+      </div>
+  
+      <!-- Pantalla negra intermedia -->
+      <div id="pantallaNegra" class="pantalla-negra" style="display:none;">
+        <p>Preparando cambio...</p>
+      </div>
+  
+      <!-- Fase de resposta -->
+      <div id="faseResposta" class="fase-resposta" style="display:none;">
+        <img id="imaxeCambio" src="" alt="Imaxe cambiada">
+        <div id="opcionCambios" class="opcion-cambios"></div>
+      </div>
+  
+      <!-- Zona de progreso -->
+      <div class="zona-secreto">
+        <div id="letrasDescubertas"></div>
+        <div id="claveFinal"></div>
+      </div>
+    </div>
+  
+    <audio id="successSound" src="sounds/success-sound.mp3" preload="auto"></audio>
+  </section>

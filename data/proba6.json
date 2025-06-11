@@ -1,0 +1,97 @@
+[
+  {
+    "imagen": "imagen1.png",
+    "opciones": [
+      "O cadro do ordenador cambiouse por unha impresora.",
+      "O reloxo analóxico cambiouse por un reloxo dixital.",
+      "As estanterías están cheas só de carpetas azuis.",
+      "A taza foi substituída por un cartón de leite.",
+      "O libro aberto foi substituído por unhas gafas 3D.",
+      "A alumna leva unha tableta en vez dun libro.",
+      "A ventá mostra unha árbore no exterior.",
+      "O neno leva auriculares.",
+      "A profesora ten un portátil na man.",
+      "Desapareceu o debuxo do robot na parede.",
+      "Hai un teclado verde na mesa.",
+      "A pantalla do ordenador está apagada."
+    ],
+    "respuesta": "O cadro do ordenador cambiouse por unha impresora.",
+    "letraCodificada": "Vg=="
+  },
+  {
+    "imagen": "imagen2.png",
+    "opciones": [
+      "O cadro do ordenador cambiouse por unha impresora.",
+      "O reloxo analóxico cambiouse por un reloxo dixital.",
+      "As estanterías están cheas só de carpetas azuis.",
+      "A taza foi substituída por un cartón de leite.",
+      "O libro aberto foi substituído por unhas gafas 3D.",
+      "A alumna leva unha tableta en vez dun libro.",
+      "A ventá mostra unha árbore no exterior.",
+      "O neno leva auriculares.",
+      "A profesora ten un portátil na man.",
+      "Desapareceu o debuxo do robot na parede.",
+      "Hai un teclado verde na mesa.",
+      "A pantalla do ordenador está apagada."
+    ],
+    "respuesta": "O reloxo analóxico cambiouse por un reloxo dixital.",
+    "letraCodificada": "Tw=="
+  },
+  {
+    "imagen": "imagen3.png",
+    "opciones": [
+      "O cadro do ordenador cambiouse por unha impresora.",
+      "O reloxo analóxico cambiouse por un reloxo dixital.",
+      "As estanterías están cheas só de carpetas azuis.",
+      "A taza foi substituída por un cartón de leite.",
+      "O libro aberto foi substituído por unhas gafas 3D.",
+      "A alumna leva unha tableta en vez dun libro.",
+      "A ventá mostra unha árbore no exterior.",
+      "O neno leva auriculares.",
+      "A profesora ten un portátil na man.",
+      "Desapareceu o debuxo do robot na parede.",
+      "Hai un teclado verde na mesa.",
+      "A pantalla do ordenador está apagada."
+    ],
+    "respuesta": "As estanterías están cheas só de carpetas azuis.",
+    "letraCodificada": "TA=="
+  },
+  {
+    "imagen": "imagen4.png",
+    "opciones": [
+      "O cadro do ordenador cambiouse por unha impresora.",
+      "O reloxo analóxico cambiouse por un reloxo dixital.",
+      "As estanterías están cheas só de carpetas azuis.",
+      "A taza foi substituída por un cartón de leite.",
+      "O libro aberto foi substituído por unhas gafas 3D.",
+      "A alumna leva unha tableta en vez dun libro.",
+      "A ventá mostra unha árbore no exterior.",
+      "O neno leva auriculares.",
+      "A profesora ten un portátil na man.",
+      "Desapareceu o debuxo do robot na parede.",
+      "Hai un teclado verde na mesa.",
+      "A pantalla do ordenador está apagada."
+    ],
+    "respuesta": "A taza foi substituída por un cartón de leite.",
+    "letraCodificada": "VA=="
+  },
+  {
+    "imagen": "imagen5.png",
+    "opciones": [
+      "O cadro do ordenador cambiouse por unha impresora.",
+      "O reloxo analóxico cambiouse por un reloxo dixital.",
+      "As estanterías están cheas só de carpetas azuis.",
+      "A taza foi substituída por un cartón de leite.",
+      "O libro aberto foi substituído por unhas gafas 3D.",
+      "A alumna leva unha tableta en vez dun libro.",
+      "A ventá mostra unha árbore no exterior.",
+      "O neno leva auriculares.",
+      "A profesora ten un portátil na man.",
+      "Desapareceu o debuxo do robot na parede.",
+      "Hai un teclado verde na mesa.",
+      "A pantalla do ordenador está apagada."
+    ],
+    "respuesta": "O libro aberto foi substituído por unhas gafas 3D.",
+    "letraCodificada": "QQ=="
+  }
+]

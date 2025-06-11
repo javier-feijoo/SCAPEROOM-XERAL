@@ -1,0 +1,74 @@
+.card {
+    background: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 700px;
+    margin: 2rem auto;
+    border-left: 6px solid #007BFF;
+  }
+  
+  .card p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    margin: 0.7rem 0;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  button {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .clave {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: #004d40;
+    font-weight: bold;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 600px) {
+    .card {
+      padding: 1rem;
+      margin: 1.5rem auto;
+    }
+  
+    input, button {
+      font-size: 1rem;
+    }
+  
+    .card p {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,79 @@
+/* PROBA 1 - Ordenar Letras */
+
+.definicion {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .zona-soltar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0.5rem;
+    border: 2px dashed #90a4ae;
+    border-radius: 0.5rem;
+    background-color: #f0f4f8;
+    margin-bottom: 1rem;
+    min-height: 80px;
+  }
+  
+  .letra {
+    width: clamp(40px, 10vw, 60px);
+    height: clamp(40px, 10vw, 60px);
+    font-size: clamp(1.2rem, 4vw, 1.8rem);
+    margin: 4px;
+    background: #4a90e2;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s, opacity 0.2s;
+    user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .letra:hover {
+    transform: translateY(-3px);
+    background: #357abd;
+  }
+  
+  .letra:active {
+    cursor: grabbing;
+  }
+  
+  .letra.dragging {
+    opacity: 0.4;
+  }
+  
+  .letra.correcta {
+    background: #2ecc71 !important;
+  }
+  
+  .letra.acierto {
+    animation: salto 0.4s ease-in-out;
+  }
+  
+  .letra.seleccionada {
+    outline: 3px solid #ffa500;
+    box-shadow: 0 0 10px #ffa500;
+  }
+  
+  @keyframes salto {
+    0% { transform: scale(1); }
+    40% { transform: scale(1.2) rotate(2deg); }
+    60% { transform: scale(1.15) rotate(-2deg); }
+    100% { transform: scale(1); }
+  }
+  
+  .feedback {
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
