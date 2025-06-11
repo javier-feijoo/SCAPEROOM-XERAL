@@ -1,41 +1,29 @@
-<section class="proba ip-checker">
-    <h2>Aulas desconfiguradas</h2>  
-    <div class="contenedor" id="pantalla-xogo">
-  
-      <div class="card" id="ej1">
-        <p><strong>Rede:</strong> 192.168.1.64 /29</p>
-        <p><strong>Host nº:</strong> 4</p>
-        <input type="text" id="ip1" placeholder="X.X.X.X">
-        <button onclick="verificarIP(1, '192.168.1.64', 29, 4)">Comprobar</button>
-        <div class="result" id="res1"></div>
-      </div>
-  
-      <div class="card" id="ej2">
-        <p><strong>Rede:</strong> 10.0.0.4 /30</p>
-        <p><strong>Host nº:</strong> 1</p>
-        <input type="text" id="ip2" placeholder="X.X.X.X">
-        <button onclick="verificarIP(2, '10.0.0.4', 30, 1)">Comprobar</button>
-        <div class="result" id="res2"></div>
-      </div>
-  
-      <div class="card" id="ej3">
-        <p><strong>Rede:</strong> 172.16.3.0 /28</p>
-        <p><strong>Host nº:</strong> 12</p>
-        <input type="text" id="ip3" placeholder="X.X.X.X">
-        <button onclick="verificarIP(3, '172.16.3.0', 28, 12)">Comprobar</button>
-        <div class="result" id="res3"></div>
-      </div>
-  
-      <div class="card" id="ej4">
-        <p><strong>Rede:</strong> 192.168.50.128 /26</p>
-        <p><strong>Host nº:</strong> 61</p>
-        <input type="text" id="ip4" placeholder="X.X.X.X">
-        <button onclick="verificarIP(4, '192.168.50.128', 26, 61)">Comprobar</button>
-        <div class="result" id="res4"></div>
-      </div>
-  
-      <div class="clave" id="clave"></div>
-  
-    </div>
-  </section>
-  
+<section class="proba xeroglificos">
+  <h2>Descifra os Xeroglíficos</h2>
+
+  <div class="xeroglifico" id="xer1">
+    <img src="assets/proba4/jer1.png" alt="Xeroglífico 1">
+    <input type="text" id="res1" placeholder="Palabra 1">
+    <button class="comprobar" data-indice="1">Comprobar</button>
+    <p class="resultado" id="msg1"></p>
+  </div>
+
+  <div class="xeroglifico" id="xer2" style="display: none">
+    <img src="assets/proba4/jer2.png" alt="Xeroglífico 2">
+    <input type="text" id="res2" placeholder="Palabra 2">
+    <button class="comprobar" data-indice="2">Comprobar</button>
+    <p class="resultado" id="msg2"></p>
+  </div>
+
+  <div class="xeroglifico" id="xer3" style="display: none">
+    <img src="assets/proba4/jer3.png" alt="Xeroglífico 3">
+    <input type="text" id="res3" placeholder="Palabra 3">
+    <button class="comprobar" data-indice="3">Comprobar</button>
+    <p class="resultado" id="msg3"></p>
+  </div>
+
+  <div id="claveFinal" style="display:none">
+    <h3>🔐 Clave descuberta:</h3>
+    <p id="claveTexto"></p>
+  </div>
+</section>
